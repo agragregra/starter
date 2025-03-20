@@ -1,9 +1,9 @@
-# Simple Starter
-A simple starter for web development using native technologies.
+# Starter
+Starter for web development using native technologies.
 
-![Simple-Starter](https://raw.githubusercontent.com/agragregra/Simple-Starter/main/public/images/preview.png)
+![Starter](https://raw.githubusercontent.com/agragregra/starter/main/public/images/preview.png)
 ```
-git clone https://github.com/agragregra/Simple-Starter .; rm -rf trunk .gitignore .git
+git clone https://github.com/agragregra/starter .; rm -rf trunk .gitignore .git
 ```
 
 > run with **Live Server**
