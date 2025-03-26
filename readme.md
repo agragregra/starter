@@ -6,7 +6,7 @@ Starter for web development using native technologies.
 git clone https://github.com/agragregra/starter .; rm -rf trunk .gitignore .git
 ```
 
-> run with **Live Server**
+> Run with **Live Server**
 
 ## Helpers
 
