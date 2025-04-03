@@ -1,9 +1,9 @@
 # Starter
 Starter for web development using native technologies.
 
-![Starter](https://raw.githubusercontent.com/agragregra/starter/main/public/images/preview.jpg)
+![Starter](https://raw.githubusercontent.com/webdesign-masteru/starter/main/public/images/preview.jpg)
 ```
-git clone https://github.com/agragregra/starter .; rm -rf trunk .gitignore .git
+git clone https://github.com/webdesign-masteru/starter .; rm -rf trunk .gitignore .git
 ```
 
 > Run with **Live Server**
