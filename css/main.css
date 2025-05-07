@@ -2,14 +2,14 @@
 
 :root {
   --container: 1140px;
-  --gutter: 1.25rem;
+  --gutter: 20px;
 
   --font-family: roboto-st, sans-serif;
   --font-size: 16px;
   --line-height: 1.625;
 
-  --color: #171717;
-  --accent: #f99b16;
+  --color: #151515;
+  --accent: orange;
 
   --radius: 8px;
 }
