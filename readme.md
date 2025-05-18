@@ -1,9 +1,9 @@
 # Starter
 Starter for web development using native technologies.
 
-![Starter](https://raw.githubusercontent.com/agragregra/starter/main/img/preview.jpg)
+![Starter](https://raw.githubusercontent.com/agragregra/starter/main/public/images/preview.jpg)
 ```
-git clone https://github.com/agragregra/starter .; rm -rf trunk .git
+git clone https://github.com/agragregra/starter .; rm -rf trunk .gitignore .git
 ```
 
 > Run with **Live Server**
@@ -59,4 +59,38 @@ xl - 1399.98px
 .align-content-{start, end, center, between, around, stretch}
 .g-0, .gx-0, .gy-0
 .nowrap
+```
+
+### css mode classes (root):
+```
+.light
+.dark
+```
+
+### theme switcher:
+```
+<span data-mode="light">Light</span>
+<span data-mode="dark">Dark</span>
+<span data-mode="auto">Auto</span>
+```
+
+### switcher active item:
+```
+[data-mode].active {}
+```
+
+### theme toggler:
+```
+<div class="toggler"><button></button></div>
+```
+
+### toggler active item:
+```
+(recommended):
+.light .toggler {}
+.dark .toggler {}
+
+(option):
+.toggler.toggler-light {}
+.toggler.toggler-dark {}
 ```
