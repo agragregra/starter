@@ -74,12 +74,6 @@ xl - 1399.98px
 <span data-mode="auto">Auto</span>
 ```
 
-### default mode (optional):
-```
-<html data-mode-default="light">
-...
-```
-
 ### switcher active item:
 ```
 [data-mode].active {}
@@ -99,4 +93,10 @@ xl - 1399.98px
 (option):
 .toggler.toggler-light {}
 .toggler.toggler-dark {}
+```
+
+### default mode (optional):
+```
+<html data-mode-default="light">
+...
 ```
