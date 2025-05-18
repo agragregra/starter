@@ -40,7 +40,12 @@
       <div class="col-sm-12 col-lg-4 order-md-last">
         <h2 class="header">Starter</h2>
         <span class="accent">Lorem ipsum</span> dolor sit amet consectetur, adipisicing elit. Molestiae quos ab, incidunt hic recusandae animi amet consectetur.
-        <blockquote>Nesciunt fugiat ipsa velit nobis, quam corrupti veritatis, perferendis facere et odit autem corporis molestias recusandae adipisicing.</blockquote>
+        <div class="row">
+          <div class="col-4">
+            <button onclick="localStorage.clear(); location.reload();" style="margin-top: 15px;"><span class="d-none d-sm-block d-md-block d-lg-none d-xl-block">Clear localStorage</span><span class="d-none d-xs-block d-sm-none d-lg-block d-xl-none">🧹</span></button>
+          </div>
+          <div class="col-8"><blockquote>Nesciunt fugiat ipsa velit nobis, quam corrupti veritatis, perferendis facere et odit autem corporis molestias.</blockquote></div>
+        </div>
       </div>
       <div class="col-sm-12 col-lg-8 order-lg-first">
         <img class="image image-dark" src="public/images/preview.jpg" alt="Image Example" loading="lazy">

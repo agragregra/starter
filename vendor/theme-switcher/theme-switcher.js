@@ -1,7 +1,10 @@
 export class themeSwitcher {
   constructor() {
-    const html = document.documentElement,
-      mode = localStorage.getItem('mode') || 'auto';
+    const html = document.documentElement;
+
+    const defaultMode = html.dataset.modeDefault || 'auto';
+    const mode = localStorage.getItem('mode') || defaultMode;
+
     const getPreferredMode = () =>
       matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 
@@ -25,7 +28,7 @@ export class themeSwitcher {
     this.updateTogglerClass = () => {
       const togglers = document.querySelectorAll('.toggler');
       if (togglers.length > 0) {
-        const currentMode = localStorage.getItem('mode') || 'auto';
+        const currentMode = localStorage.getItem('mode') || defaultMode;
         const systemMode = getPreferredMode();
         const effectiveMode = currentMode === 'auto' ? systemMode : currentMode;
 
@@ -37,7 +40,7 @@ export class themeSwitcher {
     };
 
     this.handleTogglerClick = () => {
-      const currentMode = localStorage.getItem('mode') || 'auto';
+      const currentMode = localStorage.getItem('mode') || defaultMode;
       const systemMode = getPreferredMode();
 
       let newMode;

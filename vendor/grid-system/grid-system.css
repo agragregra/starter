@@ -58,6 +58,19 @@
 .gy-0 { row-gap: 0!important; }
 .g-0 { gap: 0!important; }
 
+@media (min-width: 0) {
+
+  .d-xs-inline { display: inline!important; }
+  .d-xs-inline-block { display: inline-block!important; }
+  .d-xs-block { display: block!important; }
+  .d-xs-grid { display: grid!important; }
+  .d-xs-inline-grid { display: inline-grid!important; }
+  .d-xs-flex { display: flex!important; }
+  .d-xs-inline-flex { display: inline-flex!important; }
+  .d-xs-none { display: none!important; }
+
+}
+
 @media (min-width: 576px) {
 
   .row-cols-sm-2 > * { grid-column: span 6; }
