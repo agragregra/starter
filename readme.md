@@ -7,6 +7,7 @@ git clone https://github.com/agragregra/starter .; rm -rf trunk .gitignore .git
 ```
 
 > Run with **Live Server**
+> "liveServer.settings.fullReload": true,
 
 ## Helpers
 
