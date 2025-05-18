@@ -90,7 +90,7 @@ xl - 1399.98px
 .light .toggler {}
 .dark .toggler {}
 
-(option):
+(optional):
 .toggler.toggler-light {}
 .toggler.toggler-dark {}
 ```
