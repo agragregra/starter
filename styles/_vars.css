@@ -3,11 +3,11 @@
   --line-height: 1.625;
   --font-family: roboto-st, sans-serif;
 
-  --gutter: 1.25rem;
   --container: 1140px;
+  --gutter: 1.25rem;
 
-  --border-radius: .5rem;
-  --color-accent: #f99b16;
+  --accent: #f99b16;
+  --radius: .5rem;
 }
 
 .light {

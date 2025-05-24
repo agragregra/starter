@@ -12,24 +12,24 @@
 [data-mode] {
   display: inline-block;
   cursor: pointer;
-  border-radius: calc(var(--border-radius) / 2);
+  border-radius: calc(var(--radius) / 2);
   padding: .4rem .9rem;
 }
 
 [data-mode].active {
-  color: var(--color-accent);
-  background-color: var(--color-accent);
+  color: var(--accent);
+  background-color: var(--accent);
   color: #fff;
 }
 
 .image {
   max-width: 100%;
-  border-radius: var(--border-radius);
+  border-radius: var(--radius);
   display: none;
 }
 
 .accent {
-  color: var(--color-accent);
+  color: var(--accent);
   font-weight: bold;
 }
 
