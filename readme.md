@@ -52,9 +52,9 @@ xl - 1399.98px
 .row-cols-{breakpoint}-{2, 3, 4}
 .col-{1-12}
 .col-{breakpoint}-{1-12}
-.order-{first, 0–5, last}
-.d-{breakpoint}-{block, inline-block, flex, inline-flex, grid, inline-grid, inline, none}
-.flex-{fill, row, row-reverse, column, column-reverse, wrap, nowrap}
+.order-{breakpoint}-{first, 0–5, last}
+.d-{breakpoint}-{inline, inline-block, block, grid, inline-grid, flex, inline-flex, none}
+.flex-{fill, row, column, row-reverse, column-reverse, wrap, nowrap, flex-wrap-reverse}
 .justify-content-{start, end, center, between, around, evenly}
 .align-items-{start, end, center, baseline, stretch}
 .align-content-{start, end, center, between, around, stretch}
