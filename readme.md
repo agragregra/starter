@@ -59,7 +59,7 @@ xl - 1399.98px
 .align-items-{start, end, center, baseline, stretch}
 .align-content-{start, end, center, between, around, stretch}
 .g-0, .gx-0, .gy-0
-.nowrap
+.nowrap, d-none, hidden
 ```
 
 ### css mode classes (root):
