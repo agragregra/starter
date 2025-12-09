@@ -60,6 +60,7 @@ xl - 1399.98px
 .align-content-{start, end, center, between, around, stretch}
 .g-0, .gx-0, .gy-0, .g-10, .g-20, .g-30
 .nowrap, d-none, [hidden]
+.overflow-hidden
 .h-100
 ```
 
