@@ -58,8 +58,9 @@ xl - 1399.98px
 .justify-content-{start, end, center, between, around, evenly}
 .align-items-{start, end, center, baseline, stretch}
 .align-content-{start, end, center, between, around, stretch}
-.g-0, .gx-0, .gy-0
+.g-0, .gx-0, .gy-0, .g-10, .g-20, .g-30
 .nowrap, d-none, [hidden]
+.h-100
 ```
 
 ### css mode classes (root):
